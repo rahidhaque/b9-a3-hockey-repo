@@ -18,7 +18,8 @@
                 extend: {
                     colors: {
                         'bgPrimary': '#FF4240',
-                        'txtPrimary': "#13131899"
+                        'txtPrimary': "#13131899",
+                        'linGradient': '#13131880',
                     }
                 }
             }
@@ -68,7 +69,7 @@
     </header>
     <main>
         <!-- professional hockey's club section  -->
-        <section>
+        <section class="mb-32">
             <div>
                 <h2 class="text-4xl text-center font-extrabold mb-6">Professional Hockey's Club</h2>
                 <p class="text-txtPrimary text-center font-medium mb-20">Dit amet consectetur. Condimentum dignissim
@@ -79,24 +80,55 @@
                         <h3 class="font-semibold">Player Facility</h3>
                         <p class="w-[250px] text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
                     </div>
-                <div class="space-y-2 flex flex-col items-center">
-                    <div class="radial-progress" style="--value:95; color: #49D293;" role="progressbar">95%</div>
-                    <h3 class="font-semibold">Experienced Coach</h3>
+                    <div class="space-y-2 flex flex-col items-center">
+                        <div class="radial-progress" style="--value:95; color: #49D293;" role="progressbar">95%</div>
+                        <h3 class="font-semibold">Experienced Coach</h3>
                         <p class="w-[250px] text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
-                </div>
-                <div class="space-y-2 flex flex-col items-center">
-                    <div class="radial-progress" style="--value:90; color: #FFB546;" role="progressbar">90%</div>
-                    <h3 class="font-semibold">Senior Player</h3>
+                    </div>
+                    <div class="space-y-2 flex flex-col items-center">
+                        <div class="radial-progress" style="--value:90; color: #FFB546;" role="progressbar">90%</div>
+                        <h3 class="font-semibold">Senior Player</h3>
                         <p class="w-[250px] text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
-                </div>
-                <div class="space-y-2 flex flex-col items-center">
-                    <div class="radial-progress" style="--value:80; color: #4C8DF1;" role="progressbar">80%</div>
-                    <h3 class="font-semibold">Training Ground</h3>
+                    </div>
+                    <div class="space-y-2 flex flex-col items-center">
+                        <div class="radial-progress" style="--value:80; color: #4C8DF1;" role="progressbar">80%</div>
+                        <h3 class="font-semibold">Training Ground</h3>
                         <p class="w-[250px] text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
-                </div>
+                    </div>
                 </div>
             </div>
         </section>
+
+        <!-- programs section  -->
+        <section class="mb-32">
+            <h2 class="text-4xl text-center font-extrabold mb-6">Programs Section</h2>
+            <p class="text-txtPrimary text-center font-medium mb-20">Dit amet consectetur. Condimentum dignissim
+                adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class="bg-cover bg-center rounded-2xl h-[338px] w-full space-y-2 bg-[linear-gradient(to_right_bottom,rgba(19,19,24,0.8),rgba(19,19,24,0.0)),url('images/2.png')] text-white pl-10 pt-6 lg:pt-20">
+                    <h3 class="text-3xl font-extrabold">Junior Program</h3>
+                    <p class="w-[277px] lg:w-[495px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue
+                        sed et in.</p>
+                    <button class="bg-bgPrimary border-[bgPrimary] rounded-lg px-6 py-2 outline-none">Register Now!</button>
+                </div>
+                <div class="bg-cover bg-center rounded-2xl h-[338px] w-full bg-[linear-gradient(to_right_bottom,rgba(19,19,24,0.8),rgba(19,19,24,0.0)),url('images/3.png')] space-y-2 text-white pl-10 pt-6 lg:pt-20">
+                    <h3 class="text-3xl font-extrabold">Teenager Program</h3>
+                    <p class="w-[277px] lg:w-[495px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue
+                        sed et in.</p>
+                    <button class="bg-bgPrimary border-[bgPrimary] rounded-lg px-6 py-2 outline-none">Register Now!</button>
+                </div>
+                <div class="bg-cover bg-center rounded-2xl h-[338px] w-full bg-[linear-gradient(to_right_bottom,rgba(19,19,24,0.8),rgba(19,19,24,0.0)),url('images/4.png')] lg:col-span-2 space-y-2 text-white pl-10 pt-6 lg:pt-36">
+                    <h3 class="text-3xl font-extrabold">Professional Program</h3>
+                    <p class="w-[277px] lg:w-[495px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue
+                        sed et in.</p>
+                    <button class="bg-bgPrimary border-[bgPrimary] rounded-lg px-6 py-2 outline-none">Register Now!</button>
+                </div>
+            </div>
+        </section>
+
     </main>
     <footer>
 
